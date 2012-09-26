@@ -1,6 +1,10 @@
 [user]
-  email = gmassanek@gmail.com
-  name = Geoff Massanek
+  email = bd@bendowney.net
+  name = Ben Downey
+[merge]
+  tool = vimdiff
+[credential]
+  helper = osxkeychain
 [core]
   editor = vim
 [color]
