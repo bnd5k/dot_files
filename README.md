@@ -12,9 +12,10 @@ Also, I'm using Tim Pope's [vim-pathogen plugin](http://github.com/tpope/vim-pat
 2. Sometimes, if you already have a .vim directory, the dot files get stored in a .vim directory inside your preexisting .vim directory.  If you that going on, then run these commands.  (BTW if you get and error abour colors when you startup vim, then you're
    experiencing the problem).
 
-```cp -rf .vim/.vim/* .vim/
-```rm -rf /.vim/.vim
-
+```
+    cp -rf .vim/.vim/* .vim/
+    rm -rf /.vim/.vim
+```
 3. Set your email address in the git config file.  At the command line, run these comands. (If you don't, you'll be committing work as Ben Downey.)
 
   ```git config --global user.name "John Doe"
