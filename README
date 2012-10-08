@@ -1,5 +1,16 @@
+# Overview
+This repo contains all of my dot files.  They're located in the home directory to take advantage of the [homesick gem](https://github.com/technicalpickles/homesick).
 
-This is my .vim directory.  I'm using Tim Pope's vim-pathogen plugin (http://github.com/tpope/vim-pathogen) which allows the easy organization of plugins under the /bundle directory.  Git submodules allow me to easily update to the latest plugins.
+1. Once you have homesick installed, then pull down these files by using the following commands.
+
+  ```homesick clone  git@github.com:bnd5k/dot_files.git.
+  ```homesick symlink dot_files
+
+Next run these two commands:
+cp -rf .vim/.vim/* .vim/
+rm -rf /.vim/.vim
+
+ directory.  I'm using Tim Pope's vim-pathogen plugin (http://github.com/tpope/vim-pathogen) which allows the easy organization of plugins under the /bundle directory.  Git submodules allow me to easily update to the latest plugins.
 
 
 
