@@ -10,6 +10,7 @@
 [color]
   ui = true
 [alias]
+  g      =   git 
   st     =   status
   ci     =   commit
   cim    =   commit -m
@@ -25,3 +26,6 @@
   pr     =   pull --rebase
   aa     =   add --all
   amend  =   commit --amend
+  sh     =   stash
+  rb     =   rebase
+  ps     =   push
