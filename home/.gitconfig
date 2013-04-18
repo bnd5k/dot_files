@@ -19,10 +19,7 @@
   df     =   diff
   lg     =   log -p
   l      =   "!source ~/.githelpers && pretty_git_log"
-  me     =   "!source ~/.githelpers && pretty_git_log --author=Geoff"
   lp     =   log --pretty="format:'%h %ad | %an - %s%d'" --date=short
-  lgs    =   log --stat
-  ls     =   ls-files
   pr     =   pull --rebase
   aa     =   add --all
   amend  =   commit --amend
